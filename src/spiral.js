@@ -7,7 +7,7 @@ const spiral = (n) => {
   let i = 0;
   const yIncr = [1, 0, -1, 0];
   const xIncr = [0, 1, 0, -1];
-  
+
   while( iterator++ < limit){
     matrix[x][y] = iterator;
     x += xIncr[i];
